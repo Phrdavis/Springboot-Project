@@ -1,4 +1,4 @@
-package com.springboot.Control;
+package com.springboot.control;
 
 import java.util.List;
 
@@ -12,7 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springboot.Entidades.Customer;
+import com.springboot.entity.Customer;
+import com.springboot.repository.CustomerRepository;
 
 @RestController
 @RequestMapping("api/customers")
